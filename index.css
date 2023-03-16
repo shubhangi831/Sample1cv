@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D7186;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 289px 312px auto;
+    width: 864px;
+    height: 637px;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+}
+.column1{
+   position: relative;
+    /* background-color: aqua; */
+    height: 637px;
+}
+.column1 .image{
+    position: absolute;
+    /* border: 2px solid blue; */
+    width: 235px;
+    height: 341px;
+    margin: 48px 0 248px 54px;
+    border-radius: 26px;
+}
+.column1 .table{
+    position: absolute;
+    margin: 419px 42px 143px 87px;
+    width: 160px;
+    height: 75px;
+    /* background-color: rgb(151, 151, 202); */
+    font-size: 11px;
+    font-family: 'Fira Sans';
+}
+.table td{
+    color: #717886;
+}
+.table th{
+    text-align: start;
+}
+.column2{
+    position: relative;
+    height: 637px;
+    /* background-color: aquamarine; */
+}
+.about{
+    /* background-color: gray; */
+    font-size: 11px;
+    font-family: 'Fira Sans';
+    color: #717886;
+    line-height: 15px;
+    width: 208px;
+    height: 162px;
+    margin: 48px 44px 427px 60px;
+}
+.column3{
+    /* background-color: bisque; */
+}
+.goals{
+    width: 208px;
+    height: 129px;
+    font-size: 11px;
+    font-family: 'Fira Sans';
+    color: #717886;
+    /* background-color: purple; */
+    margin: 48px 41px 10px 14px ;
+    line-height: 15px;
+}
+.needs{
+    /* background-color: saddlebrown; */
+    width: 208px;
+    height: 107px;
+    font-size: 11px;
+    font-family: 'Fira Sans';
+    color: #717886;
+    line-height: 15px;
+    margin: 10px 41px 5px 14px;
+}
+.point{
+    /* background-color: salmon; */
+    position: absolute;
+    width: 208px;
+    height: 195px;
+    font-size: 11px;
+    font-family: 'Fira Sans';
+    color: #717886;
+    margin: 5px 41px 149px 14px ;    
+}
+.point ul{
+    padding-left: 20px;
+    line-height: 15px;
+}
+footer{
+    /* background-color: seagreen; */
+    position: absolute;
+    width: 688px;
+    height: 138px;
+    margin: 499px 176px 0 0;
+}
+.personality{
+    /* background-color: sandybrown; */
+    width: 634px;
+    height: 67px;
+    margin: 25px 0 46px 54px;
+    font-size: 11px;
+    font-family: 'Fira Sans';
+    color: #717886;
+}
+.slider{
+    /* background-color: skyblue; */
+    position: absolute;
+    width: 193px;
+    height: 48px;
+    font-size: 11px;
+    font-family: 'Fira Sans';
+    color: #717886;
+    margin-top: -14px;
+    word-spacing: 100px;
+}
+.image2{
+    width: 187px;
+    height: 8px;
+}
+.slider1{
+    /* background-color: khaki; */
+    position: absolute;
+width: 190px;
+height: 49px;
+margin: 15px 223px 3px 221px;
+margin-top: -14px;
+word-spacing: 110px;
+}
+.span1{
+    word-spacing: 2px;
+}
+.slider2{
+    /* background-color: red; */
+    position: absolute;
+    width: 186px;
+    height: 49px;
+    margin: 15px 4px 3px 444px;
+    margin-top: -14px;
+    word-spacing: 70px;
+}
+.span3{
+    word-spacing: 0px;
+ }
+.span2{
+    word-spacing: 115px;
+}
+.image4{
+    /* background-color: rgba(128, 255, 0, 0.384); */
+    position: absolute;
+    width: 179px;
+    height: 165px;
+    margin: 9px 29px 64px 745px;
+    margin-top: -140px;
+}
+.image4 img{
+    position: absolute;
+    width: 172px;
+    height: 130px;
+}
+.about1{
+    position: absolute;
+    background-color: #ee4b15ef;
+    border-radius: 17px;
+    margin: auto;
+    width: 335px;
+    height: 269px;
+    margin: 230px 263px 138px 266px;
+}
+.image1 img{
+    /* background-color: red; */
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    margin: 35px 275px 211px 30px;
+}
+.info{
+    position: absolute;
+    width: 278px;
+    height: 131px;
+    /* background-color: palegreen; */
+    margin: 81px 27px 57px 30px;
+    line-height: 15px;
+    font-size: 11px;
+    font-family: 'Fira Sans';
+    color: #FFFFFF;
+}
