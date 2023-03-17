@@ -40,6 +40,7 @@ body{
 }
 .table td{
     color: #717886;
+    text-align: end;
 }
 .table th{
     text-align: start;
@@ -58,9 +59,6 @@ body{
     width: 208px;
     height: 162px;
     margin: 48px 44px 427px 60px;
-}
-.column3{
-    /* background-color: bisque; */
 }
 .goals{
     width: 208px;
@@ -130,11 +128,11 @@ footer{
 .slider1{
     /* background-color: khaki; */
     position: absolute;
-width: 190px;
-height: 49px;
-margin: 15px 223px 3px 221px;
-margin-top: -14px;
-word-spacing: 110px;
+    width: 190px;
+    height: 49px;
+    margin: 15px 223px 3px 221px;
+    margin-top: -14px;
+    word-spacing: 110px;
 }
 .span1{
     word-spacing: 2px;
@@ -180,7 +178,7 @@ word-spacing: 110px;
     /* background-color: red; */
     position: absolute;
     width: 30px;
-    height: 35px;
+    height: 30px;
     margin: 35px 275px 211px 30px;
 }
 .info{
